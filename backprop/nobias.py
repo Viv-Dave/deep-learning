@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
 x1 = np.array([0,0,1,1])
 x2 = np.array([0,1,0,1])
 w1 = np.random.randn(1)
