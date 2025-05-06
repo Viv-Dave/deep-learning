@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 x1_inputs = np.array([0,0,1,1])
 x2_inputs = np.array([0,1,0,1])
 X = np.array([x1_inputs, x2_inputs]).T
-y_target = np.array([[0], [1], [1], [0]])
+y_target = np.array([[0], [0], [0], [1]])
 def sigmoid(z):
     z = np.clip(z, -500, 500)
     return 1.0 / (1.0 + np.exp(-z))

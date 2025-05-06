@@ -4,8 +4,6 @@ import struct
 import os
 
 data_dir = r"D:\deep-learning\mnist\data\MNIST\raw"
-
-
 train_images_path = os.path.join(data_dir, "train-images-idx3-ubyte")
 train_labels_path = os.path.join(data_dir, "train-labels-idx1-ubyte")
 
